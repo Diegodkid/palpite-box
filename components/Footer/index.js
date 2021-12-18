@@ -6,7 +6,7 @@ const Footer = () => {
          <div className="bg-[#000409] p-4">
          <div className="container mx-auto text-center text-blue-200 ">
             <div>
-               Projeto deseenvoldivo por:
+               Projeto desenvoldivo por:
             </div>
             </div>
             <div className="container mx-auto flex justify-center my-10">
