@@ -34,13 +34,14 @@ export default async (req, res) => {
       Nome: data.Nome,
       Email: data.Email,
       Whatsapp: data.Whatsapp,
-      Nota: 5,
+      Nota: parseInt(data.Nota),
       'Data Preenchimento': moment().format('MMMM Do YYYY, h:mm:ss a'),
-
       Cupom,
       Promo
    })
-
-   console.log(req.body)
-   res.end(req.body)
+   res.end(JSON.stringify({
+      showCoupon: Cupom !== '',
+      Cupom,
+      Promo
+   }))
 }
