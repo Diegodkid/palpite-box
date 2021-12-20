@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from "next/link";
+import PageTitle from "../components/Page/Title";
 
 const Pesquisa = () => {
    const [ form, setForm ] = useState({
@@ -36,6 +36,7 @@ const Pesquisa = () => {
    
    return (
       <div className="my-6">
+         <PageTitle title='Pesquisa' />
          <h1 className="text-center font-bold my-4 text-2xl">Críticas e sugestões</h1>
          <p className="text-center">O restaurante X sempre busca por atender melhor seus clientes. <br/>
          Por isso, estamos sempre abertos a ouvir a sua opinião.</p>
@@ -47,7 +48,11 @@ const Pesquisa = () => {
          <label className="font-bold">Whatsapp: </label>  
          <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="fone" onChange={onChange} name="Whatsapp" value={form.Whatsapp}/>
 
-      <div className="my-6 flex gap-6 mx-auto">
+
+         <label className="font-bold">Sua crítica ou sugestão: </label>  
+         <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="text" />
+
+      <div className="my-4 flex gap-4 mx-auto">
          <div className="inline-grid">
             <label htmlFor="Nota"><img src="/0.png" alt="" /></label>
             <input type="radio" name="Nota" value='0' onChange={onChange}/>
@@ -73,10 +78,8 @@ const Pesquisa = () => {
             <input type="radio" name="Nota" value='5' onChange={onChange}/>
          </div>
       </div>
-
-         <label className="font-bold">Sua crítica ou sugestão: </label>  
-         <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="text" />
          <button className="bg-cyan-700 text-blue-50 px-6 py-4 font-bold rounded-md hover:bg-cyan-600 duration-500 shadow-lg" onClick={save}>Salvar</button>
+
       </div> }
       { sucess && <div className="w-1/5 mx-auto my-10">
             <p className="bg-emerald-100 border-t border-b border-emerald-500 text-emerald-700 px-4 py-3 rounded shadow-md text-center">Obrigada por contrubuir com sua sugestão ou crítica.</p>
