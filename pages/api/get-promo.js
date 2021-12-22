@@ -1,6 +1,6 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 
-const doc = new GoogleSpreadsheet('12I2vis8MtEbzAO7mrtGm2S7t89PKiMv748_6TJHXiBM')
+const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
 
 export default async (req, res) => {
    //await doc.useServiceAccountAuth(credentials)
