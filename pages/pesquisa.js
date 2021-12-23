@@ -50,7 +50,7 @@ const Pesquisa = () => {
 
 
          <label className="font-bold">Sua crítica ou sugestão: </label>  
-         <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="text" />
+         <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="text" onChange={onChange} name="Crítica" value={form.Crítica} />
 
       <div className="my-4 flex gap-4 mx-auto">
          <div className="inline-grid">

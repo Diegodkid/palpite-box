@@ -17,17 +17,17 @@ const Footer = () => {
                
             </div>
             <div className="container mx-auto font-bold text-[#694201] flex justify-around p-4">
-               <a target='_blank' className="flex gap-2 target-blank hover:underline"
+               <a target='_blank' className="flex gap-2 target-blank hover:underline underline-offset-4"
                href="https://www.linkedin.com/in/diego-solit-527259217/">
                <img src="/linkd.png" alt="incone linkdlin" />
                DiegoSolit
                </a>
-               <a target='_blank' className="flex gap-2 target-blank hover:underline"
+               <a target='_blank' className="flex gap-2 target-blank hover:underline underline-offset-8"
                href="https://wa.me/556791884338">
                <img src="/zap.png" alt="incone whatsapp" />
                WhatsApp
                </a>
-               <a target='_blank' className="flex gap-2 target-blank hover:underline"
+               <a target='_blank' className="flex gap-2 target-blank hover:underline underline-offset-8"
                href="https://github.com/Diegodkid">
                <img src="/git.png" alt="icone github" />
                Diegodkid
