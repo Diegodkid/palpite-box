@@ -53,27 +53,27 @@ const Pesquisa = () => {
          <input className="bg-blue-100 mt-1 mb-4 p-3 shadow-md rounded-md" type="text" onChange={onChange} name="Crítica" value={form.Crítica} />
 
       <div className="my-4 flex gap-4 mx-auto">
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/0.png" alt="" /></label>
             <input type="radio" name="Nota" value='0' onChange={onChange}/>
          </div>
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/1.png" alt="" /></label>
             <input type="radio" name="Nota" value='1' onChange={onChange}/>
          </div>
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/2.png" alt="" /></label>
             <input type="radio" name="Nota" value='2' onChange={onChange}/>
          </div>
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/3.png" alt="" /></label>
             <input type="radio" name="Nota" value='3' onChange={onChange}/>
          </div>
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/4.png" alt="" /></label>
             <input type="radio" name="Nota" value='4' onChange={onChange}/>
          </div>
-         <div className="inline-grid gap-2">
+         <div className="inline-grid gap-2 justify-items-center">
             <label htmlFor="Nota"><img src="/5.png" alt="" /></label>
             <input type="radio" name="Nota" value='5' onChange={onChange}/>
          </div>
