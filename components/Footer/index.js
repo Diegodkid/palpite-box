@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
    return (
       <React.Fragment>
-         <div className="bg-[#000409] p-4">
+         <div className="bg-[#000409] p-6">
          <div className="container mx-auto text-center text-blue-200 ">
             <div>
                Projeto desenvoldivo por:
