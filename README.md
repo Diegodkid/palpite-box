@@ -1,4 +1,7 @@
 # palpite-box
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/90665510/147227533-be687907-e8df-4a3c-ad35-a4d161c073ea.gif)
+
  
 ![Preview]()
 
@@ -34,7 +37,7 @@ rapidly building custom designs.
 ## Author:
 
 * **Diego Solit** - [LinkedIn](https://www.linkedin.com/in/diego-solit-527259217/)
-
+* **Link para o projeto** - [PalpiteBox](https://palpite-box-diegodkid.vercel.app/)
 
 ## Licença
 
