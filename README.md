@@ -37,7 +37,7 @@ rapidly building custom designs.
 ## Author:
 
 * **Diego Solit** - [LinkedIn](https://www.linkedin.com/in/diego-solit-527259217/)
-
+* **Link para o projeto** - [PalpiteBox](https://palpite-box-diegodkid.vercel.app/)
 
 ## Licença
 
