@@ -81,7 +81,7 @@ const Pesquisa = () => {
          <button className="bg-cyan-700 text-blue-50 px-6 py-4 font-bold rounded-md hover:bg-cyan-600 duration-500 shadow-lg" onClick={save}>Salvar</button>
 
       </div> }
-      { sucess && <div className="w-1/5 mx-auto my-10">
+      { sucess && <div className="w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/5 mx-auto my-10">
             <p className="bg-emerald-100 border-t border-b border-emerald-500 text-emerald-700 px-4 py-3 rounded shadow-md text-center">Obrigada por contrubuir com sua sugestão ou crítica.</p>
             {
                retorno.showCoupon && <div className="text-center p-4 border border-emerald-500 my-6 rounded-md">
